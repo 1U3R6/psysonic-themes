@@ -49,4 +49,12 @@
   --waveform-buffered: #3b4250;
   --player-title: #e7e9ee;
   --player-artist: #b6bbc7;
+
+  /* Optional per-region overrides — each falls back to a base token, so set one
+     only if you want that region to differ. A few examples (see
+     schema/allowed-tokens.json "granular" for the full list): */
+  --sidebar-item-hover: #1c2030;
+  --row-playing-bg: rgba(110, 168, 254, 0.22);
+  --row-playing-text: #6ea8fe;
+  --menu-item-hover: #1c2030;
 }

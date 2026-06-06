@@ -21,9 +21,12 @@ const REPO = resolve(HERE, '..');
 const tokens = JSON.parse(readFileSync(join(REPO, 'schema', 'allowed-tokens.json'), 'utf8'));
 const manifestSchema = JSON.parse(readFileSync(join(REPO, 'schema', 'manifest.schema.json'), 'utf8'));
 
-const CORE = Object.keys(tokens.core);
-const OPTIONAL = Object.keys(tokens.optional);
-const ALLOWED = new Set([...CORE, ...OPTIONAL]);
+const noMeta = (o) => Object.keys(o || {}).filter((k) => !k.startsWith('$'));
+const CORE = noMeta(tokens.core);
+const OPTIONAL = noMeta(tokens.optional);
+const GRANULAR = noMeta(tokens.granular);
+// Core is required; optional + granular are allowed but never required.
+const ALLOWED = new Set([...CORE, ...OPTIONAL, ...GRANULAR]);
 const DATA_URI_TOKENS = new Set(tokens.dataUriTokens);
 const SCHEME_VALUES = new Set(tokens.colorScheme.values);
 
