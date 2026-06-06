@@ -44,6 +44,11 @@ node scripts/validate-theme.mjs                     # every theme in themes/
 **auto-generated** from the theme manifests — never hand-edit it. On every merge
 to `main` a workflow regenerates it; locally you can run `npm run registry`.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a theme (naming,
+description, and the PR checklist).
+
 ## License
 
 Theme submissions are accepted under the [MIT License](LICENSE).
