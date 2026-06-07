@@ -283,7 +283,7 @@
 /* ── Connection indicators ── */
 [data-theme='mainframe-light'] .connection-type,
 [data-theme='mainframe-light'] .connection-server {
-  color: #8c92a6;
+  color: #2d303d;
 }
 
 /* ── Content header ── */
