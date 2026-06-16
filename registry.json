@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T18:20:07.243Z",
+  "generatedAt": "2026-06-16T23:32:27.991Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -73,8 +73,8 @@
       "id": "borealis",
       "name": "Borealis",
       "author": "Psysonic",
-      "version": "1.0.0",
-      "description": "Mid-tone slate-blue with animated aurora ribbons drifting across the player bar and sidebar. Not quite dark, not quite light.",
+      "version": "1.0.1",
+      "description": "Mid-tone slate-blue with an aurora ribbon drifting across the player bar. Not quite dark, not quite light.",
       "mode": "dark",
       "tags": [
         "animated",
@@ -87,7 +87,7 @@
       "animated": true,
       "css": "themes/borealis/theme.css",
       "thumbnail": "themes/borealis/thumbnail.webp",
-      "updatedAt": "2026-06-16T18:14:06Z"
+      "updatedAt": "2026-06-17T01:31:28+02:00"
     },
     {
       "id": "borealis-lite",
@@ -106,7 +106,7 @@
       ],
       "css": "themes/borealis-lite/theme.css",
       "thumbnail": "themes/borealis-lite/thumbnail.webp",
-      "updatedAt": "2026-06-16T20:18:31+02:00"
+      "updatedAt": "2026-06-16T18:20:07Z"
     },
     {
       "id": "braindead",
