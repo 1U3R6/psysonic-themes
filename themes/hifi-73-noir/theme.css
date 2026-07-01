@@ -232,15 +232,16 @@
   }
 }
 
+
 [data-theme='hifi-73-noir'] .titlebar {
   background: linear-gradient(
     to right,
-    #000000 0,
-    #3a3f47 var(--sidebar-width),
-    #000000 calc(100% - var(--queue-width)),
-    #3a3f47 100%
+    #141518 0,
+    #1e2024 var(--sidebar-width),
+    #141518 calc(100% - var(--queue-width)),
+    #1e2024 100%
   );
-  border-bottom: none;
+  border-bottom: 1px solid #2e2e33;
 }
 
 
@@ -461,6 +462,13 @@
     #8a8a94 75%,
     #1e1e22 100%
   ) 1;
+}
+
+
+[data-theme='hifi-73-noir'] .player-album-art-wrap,
+[data-theme='hifi-73-noir'] .player-album-art,
+[data-theme='hifi-73-noir'] .player-album-art-placeholder {
+  background: #0a0c0e;
 }
 
 [data-theme='hifi-73-noir'] .player-bar.floating {
